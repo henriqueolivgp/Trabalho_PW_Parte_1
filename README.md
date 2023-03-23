@@ -6,16 +6,9 @@ A Aldeia escolhida foi Vascões uma aldeia localizada em Paredes de Coura.
 
 ## Organização dos Ficheiros
 
-Dentro da pasta de **Programação-Web** irá conter os seguintes ficheiros:<br>
-&nbsp;&nbsp;**->** **Experiencias**<br>
-&nbsp;&nbsp;**->** **Ficha_1** - Aqui está encontra-se a ficha resolvida<br>
-&nbsp;&nbsp;**->** **Ficha_1_V2** - Aqui encontra-se a ficha resolvida com alguma estilização em css só para ficar um pouco mais bonito
+Dentro da pasta de **WebSite-Vascoes** irá conter os seguintes ficheiros:<br>
+&nbsp;&nbsp;**->** **src** - Esta pasta contem todos os ficheiros usados neste trabalho;<br>
+&nbsp;&nbsp;**->** **Img-general** - Aqui estarão todas as imagens que seerão utilizadas em várias paginas do web site;<br>
+&nbsp;&nbsp;**->** **CSS-general** - Aqui encontra-se todos os ficheiros css utilizados em várias páginas como estilo de butões e etc...;<br>
+&nbsp;&nbsp;**->** **Pages** - Esta pasta contem tudo o que for paginas do web site com a sua respetiva pasta e o seu css e imagens.
 
-## Experiencias
-
-Dentro desta pasta " **Experiencias** " contém todos os tipos de códigos uteis que eu guradei para html e css de momento só contém **3** tipos de navbar's
-Organizadas da seguinte maneira:<br>
-  &nbsp;&nbsp;**->** **Clean-NavBar** - Esta é uma navbar clean simples<br>
-  &nbsp;&nbsp;**->** **img** - pasta com imagens<br>
-  &nbsp;&nbsp;**->** **Navbar** Uma navbar simples e robusta<br>
-  &nbsp;&nbsp;**->** **Responsive NavBar** - Esta navbar é responsiva e assim que chegar a 800px de largura de ecra passará para menu hamburger para melhor utilização da navbar
