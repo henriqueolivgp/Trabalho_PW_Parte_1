@@ -12,3 +12,9 @@ Dentro da pasta de **WebSite-Vascoes** irá conter os seguintes ficheiros:<br>
 &nbsp;&nbsp;**->** **CSS-general** - Aqui encontra-se todos os ficheiros css utilizados em várias páginas como estilo de butões e etc...;<br>
 &nbsp;&nbsp;**->** **Pages** - Esta pasta contem tudo o que for paginas do web site com a sua respetiva pasta e o seu css e imagens.
 
+## Sites utilizados para recolha de ideias e funcionalidades
+&nbsp;&nbsp;1.[Sliders](https://freshdesignweb.com/jquery-image-slider-slideshow/)
+
+## Sites das funcionalidades utilizadas
+&nbsp;&nbsp;1.[Slider](https://codepen.io/suez/pen/ByvKXE)
+
