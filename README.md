@@ -1,5 +1,5 @@
 # Este é o nosso primeiro Trabalho em PW ( programação Web )!
-O trabalho conciste em fazer um web site sobre uma aldeia á nossa escolha em HTML e CSS com o que foi aprendido nas aulas, teremos que hospeda-lo para o professor ter acesso e conseguir ver o trabalho.
+O trabalho consiste em fazer um web site sobre uma aldeia à nossa escolha em HTML e CSS com o que foi aprendido nas aulas. Teremos que hospeda-lo para o professor ter acesso e conseguir ver o trabalho.
 
 ## Qual é a aldeia escolhida??
 A Aldeia escolhida foi Vascões uma aldeia localizada em Paredes de Coura.
