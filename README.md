@@ -16,8 +16,8 @@ Dentro da pasta de **WebSite-Vascoes** irá conter os seguintes ficheiros:<br>
 &nbsp;&nbsp;* [Junta de Freguesia de Vascões](https://jf-vascoes.com/)
 
 ## Sites utilizados para recolha de ideias e funcionalidades
-&nbsp;&nbsp;1.[Sliders](https://freshdesignweb.com/jquery-image-slider-slideshow/)
-&nbsp;&nbsp;1.[NavBar](https://www.codingnepalweb.com/responsive-navigation-menu-bar-html-css/)
+&nbsp;&nbsp;1.[Sliders](https://freshdesignweb.com/jquery-image-slider-slideshow/)</br>
+&nbsp;&nbsp;2.[NavBar](https://www.codingnepalweb.com/responsive-navigation-menu-bar-html-css/)
 
 ## Sites das funcionalidades utilizadas
 &nbsp;&nbsp;1.[Slider](https://codepen.io/suez/pen/ByvKXE)
