@@ -1,8 +1,3 @@
-/* NavBar */
-* {
-  box-sizing: border-box;
-}
-
 body {
   margin: 0;
   padding: 0;
@@ -93,9 +88,6 @@ em baixo com outros tamnhos e etc
       width: 100%;
       flex-direction: column;
   }
-
-  .navbar-links ul li {
-      text-align: center;
   }
 
   .navbar-links ul li a {
@@ -215,9 +207,6 @@ em baixo com outros tamnhos e etc
     display: inline-block;
     transition: background-color 0.6s ease;
   }
-  
-  .active {
-    background-color: #717171;
   }
   
   /* Fading animation */
@@ -231,7 +220,3 @@ em baixo com outros tamnhos e etc
     to {opacity: 1}
   }
   
-  /* On smaller screens, decrease text size */
-  @media only screen and (max-width: 300px) {
-    .text {font-size: 11px}
-  }
