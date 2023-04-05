@@ -108,7 +108,7 @@ em baixo com outros tamnhos e etc
 }
 
   /* slider style */
-<<<<<<< HEAD
+
   .slideshow-container {
     position: relative;
     width: 100%;
@@ -173,8 +173,7 @@ em baixo com outros tamnhos e etc
   
   .active-dot {
     background-color: #717171;
-=======
-  * {box-sizing: border-box;}
+  {box-sizing: border-box;}
   body {font-family: Verdana, sans-serif;}
   .mySlides {}
   img {vertical-align: middle;}
@@ -235,5 +234,4 @@ em baixo com outros tamnhos e etc
   /* On smaller screens, decrease text size */
   @media only screen and (max-width: 300px) {
     .text {font-size: 11px}
->>>>>>> 843ae97ab1c1b6462409c0f2dd84705a569c29a8
   }
