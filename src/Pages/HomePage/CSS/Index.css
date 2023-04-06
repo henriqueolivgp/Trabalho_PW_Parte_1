@@ -96,8 +96,37 @@ a.active,a:hover{
     left: 0;
   }
 }
-section{
+.nav-humberger{
   background: url(bg1.jpg) no-repeat;
   background-size: cover;
   height: calc(100vh - 80px);
+}
+
+/* Crid css for compunents */
+/* Style second container */
+.grid-container {
+  display: grid; 
+
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr;
+  
+  grid-template-areas: 
+ 'label0 label1';
+  
+  gap: 0px;
+  height: 100%;
+  
+}
+ 
+#item-1 {
+
+  background-color: #C899CB; 
+  grid-area: label0;
+  
+}
+#item-2 {
+
+  background-color: #BBED7D; 
+  grid-area: label1;
+  
 }
