@@ -5,20 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- All Styles for -->
-    <link rel="stylesheet" type="text/css" href="./src/Pages/HomePage/CSS/Index.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./src/Pages/HomePage/CSS/Index.css"
+    />
+    <!-- Style for Footer -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./src/Pages/HomePage/CSS/Footer.css"
+    />
     <!--Style link for responsive navbar -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
     <title>Vascões</title>
   </head>
 
   <main>
     <!--Navbar Start here-->
     <nav>
-      <input type="checkbox" id="check">
+      <input type="checkbox" id="check" />
       <label for="check" class="checkbtn">
         <i class="fas fa-bars"></i>
       </label>
-      <label class="logo" >Vascões</label>
+      <label class="logo" > Vascões</label>
       <ul>
         <li><a href="./src/Pages/Ceia/html/ceia.html">Ceia</a></li>
         <li><a href="#">Corno do bico</a></li>
@@ -30,15 +43,57 @@
     <section class="nav-humburger"></section>
     <!--Navbar finished here-->
 
-
-        
-        <div class="grid-container">
-          <div id="item-0"></div>
-          <div id="item-1"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30282.6464864189!2d-8.521977968460131!3d41.90375041078365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd25a0166ca81ea7%3A0x500ebbde4911390!2zVmFzY8O1ZXM!5e1!3m2!1sen!2spt!4v1680778534954!5m2!1sen!2spt" width="100%" height="100%" style="border:0;" allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
-          <div id="item-2"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/4s0CmCO-R7U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
-        </div>
-
-
+    <div class="grid-container">
+      <div id="item-0"></div>
+      <div id="item-1">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30282.6464864189!2d-8.521977968460131!3d41.90375041078365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd25a0166ca81ea7%3A0x500ebbde4911390!2zVmFzY8O1ZXM!5e1!3m2!1sen!2spt!4v1680778534954!5m2!1sen!2spt"
+          width="100%"
+          height="100%"
+          style="border: 0"
+          allowfullscreen="true"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+      <div id="item-2">
+        <iframe
+          width="100%"
+          height="100%"
+          src="https://www.youtube.com/embed/4s0CmCO-R7U"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
   </main>
-  <footer></footer>
+  <!--Footer start here -->
+  <div className="content1">
+    <div className="foot">
+      <!--<img className="logof" alt="" src="{logo}" />-->
+      <h3>Subscribe to our newsletter</h3>
+      <div className="footeer">
+        <input
+          className="input-footer"
+          type="email"
+          name="email"
+          placeholder="Digite seu e-mail"
+          required
+        />
+        <button className="button-footer" type="submit">Submit</button>
+      </div>
+
+      <div className="data">
+        <a href="#/" className="txt">© 2022 Techquiz, Inc</a
+        ><a href="#/" className="point"> . </a>
+        <a href="#/" className="txt">Privacy</a
+        ><a href="#/" className="point"> . </a>
+        <a href="#/" className="txt">Terms</a
+        ><a href="#/" className="point"> . </a>
+      </div>
+    </div>
+  </div>
+  <!--Footer end here -->
 </html>
