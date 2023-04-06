@@ -49,6 +49,14 @@ a.active,a:hover{
   cursor: pointer;
   display: none;
 }
+.logoo{
+  text-decoration: none;
+  color: inherit;
+  color: white;
+  text-decoration: underline;
+  color: #000000;
+    text-decoration: none;
+}
 #check{
   display: none;
 }
