@@ -52,16 +52,17 @@ a.active,a:hover{
 #check{
   display: none;
 }
-@media (max-width: 952px){
+@media (max-width: 1102px){
   label.logo{
-    font-size: 30px;
+    font-size: 24px;
     padding-left: 50px;
   }
   nav ul li a{
-    font-size: 16px;
+    font-size: 12px;
   }
 }
-@media (max-width: 858px){
+
+@media (max-width: 953px){
   .checkbtn{
     display: block;
   }
@@ -74,6 +75,10 @@ a.active,a:hover{
     left: -100%;
     text-align: center;
     transition: all .5s;
+  }
+  label.logo{
+    font-size: 22px;
+    padding-left: 50px;
   }
   nav ul li{
     display: block;
