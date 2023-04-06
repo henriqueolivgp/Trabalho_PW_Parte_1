@@ -1,9 +1,8 @@
 *{
-  padding: 0;
   margin: 0;
   text-decoration: none;
   list-style: none;
-  box-sizing: border-box;
+
 }
 body{
   font-family: montserrat;
@@ -144,6 +143,17 @@ a.active,a:hover{
   height: calc(100vh - 80px);
 }
 
-/* Crid css for compunents */
-/* Style second container */
+/* Mapa e Video */
+.parent {
+  /*border: 1px solid black;*/
+  margin: 1rem;
+  padding: 2rem 2rem;
+  text-align: center;
+}
+.child {
+  display: inline-block;
+ /* border: 1px solid red;*/
+  padding: 1rem 1rem;
+  vertical-align: middle;
+}
 
