@@ -67,6 +67,9 @@ html, body {
 {
   margin:0
 }
+.row2{
+  margin-left: 34%;
+}
 @media (max-width:991px)
 {
   .site-footer [class^=col-]
@@ -83,6 +86,17 @@ html, body {
   .site-footer .copyright-text,.site-footer .social-icons
   {
     text-align:center
+  }
+  .copyright-text
+{
+  text-align: center;
+  align-items: center;
+  margin:0
+}
+}
+@media (max-width: 1366px) {
+  .col-xs-6 col-md-3{
+    
   }
 }
 .social-icons
@@ -220,6 +234,7 @@ html, body {
 }
 .footer-links a
 {
+  font-size: 10px;
   color:#737373
 }
 .footer-links a:active,.footer-links a:focus,.footer-links a:hover
