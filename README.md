@@ -18,6 +18,7 @@ Dentro da pasta de **WebSite-Vascoes** irá conter os seguintes ficheiros:<br>
 ## Sites utilizados para recolha de ideias e funcionalidades
 &nbsp;&nbsp;1.[Sliders](https://freshdesignweb.com/jquery-image-slider-slideshow/)</br>
 &nbsp;&nbsp;2.[NavBar](https://www.codingnepalweb.com/responsive-navigation-menu-bar-html-css/)
+&nbsp;&nbsp;3.[Footer](https://codepen.io/scanfcode/pen/MEZPNd)
 
 ## Sites das funcionalidades utilizadas
 &nbsp;&nbsp;1.[Slider](https://codepen.io/suez/pen/ByvKXE)
