@@ -60,13 +60,9 @@ a.active,a:hover{
 }
 /* navbar ending */
 .boxes {
-  margin-bottom: 2%;
-  margin-top: 2%;
   display: flex;
   justify-content: center;
-  align-items: center;
-  height: 100vh;
-  flex-direction: column;
+  margin-top: 2%;
 }
 
 .box1 {
@@ -77,12 +73,40 @@ a.active,a:hover{
 }
 
 .box2 {
-  margin-top: 4%;
   width: 70%;
   height: 400px;
   background: #81a05a;
   border-radius: 0.5rem;
+  position: absolute;
+  top: 550px;
 }
+
+.text-box-1 {
+  width: 50%;
+  height: 200px;
+  background: white;
+  border-radius: 0.5rem;
+  transform: translateX(450px);
+  position: relative;
+  top: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-box-2{
+  width: 50%;
+  height: 200px;
+  background: white;
+  border-radius: 0.5rem;
+  transform: translateX(450px);
+  position: relative;
+  top: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 @media (max-width: 1102px){
   label.logo{
     font-size: 24px;
