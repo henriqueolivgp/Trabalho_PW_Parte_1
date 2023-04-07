@@ -101,3 +101,27 @@ a.active,a:hover{
   background-size: cover;
   height: calc(100vh - 80px);
 }
+/* navbar ending */
+.boxes {
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+}
+
+.box1 {
+  width: 70%;
+  height: 400px;
+  background: #81a05a;
+  border-radius: 0.5rem;
+}
+
+.box2 {
+  width: 70%;
+  height: 400px;
+  background: #81a05a;
+  border-radius: 0.5rem;
+  position: absolute;
+  top: 550px;
+}
+
+
