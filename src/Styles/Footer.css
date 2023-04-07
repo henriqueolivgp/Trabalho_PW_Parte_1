@@ -96,11 +96,11 @@ html, body {
 }
 @media (max-width:767px)
 {
-  .social-icons li.title
+ 
+  .copyright-text
   {
-    display:block;
-    margin-right:0;
-    font-weight:600
+    
+    margin:0
   }
 }
 .content-wrap {
