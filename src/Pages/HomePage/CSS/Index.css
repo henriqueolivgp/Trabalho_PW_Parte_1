@@ -146,7 +146,6 @@ a.active,a:hover{
 /* Mapa e Video */
 .parent {
   /*border: 1px solid black;*/
-  margin: 1rem;
   padding: 2rem 2rem;
   text-align: center;
 }
@@ -324,13 +323,17 @@ a.active,a:hover{
   #check:checked ~ ul{
     left: 0;
   }
+  .parent{
+    text-align: center;
+    padding: 1rem 1rem;
+  }
   .mapa{
-    width: 250px;
-    height: 200px;
+    width: 300px;
+    height: 220px;
   }
   .video{
-    width: 240px;
-    height: 140px;
+    width: 300px;
+    height: 180px;
   }
 }
 .nav-humberger{
