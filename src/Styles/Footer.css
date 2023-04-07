@@ -94,10 +94,6 @@ html, body {
   margin:0
 }
 }
-@media (max-width: 1366px) {
-
-}
-
 @media (max-width:767px)
 {
   .social-icons li.title
