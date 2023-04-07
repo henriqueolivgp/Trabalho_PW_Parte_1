@@ -105,7 +105,9 @@ a.active,a:hover{
 .boxes {
   display: flex;
   justify-content: center;
-  margin-top: 2%;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column; /* Adicionado para mudar a direção do layout */
 }
 
 .box1 {
@@ -116,12 +118,13 @@ a.active,a:hover{
 }
 
 .box2 {
+  margin-top: 4%;
   width: 70%;
   height: 400px;
   background: #81a05a;
   border-radius: 0.5rem;
-  position: absolute;
-  top: 550px;
 }
+
+
 
 
