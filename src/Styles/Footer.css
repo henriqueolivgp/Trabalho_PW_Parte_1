@@ -1,9 +1,6 @@
 html, body {
   height: 100%;
 }
-.site-footer{
-  z-index: -1;
-}
 .site-footer hr
 {
   border-top-color:#bbb;

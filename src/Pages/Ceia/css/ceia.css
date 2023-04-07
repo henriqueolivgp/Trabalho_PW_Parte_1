@@ -12,6 +12,7 @@ nav{
   background: #81a05a;
   height: 80px;
   width: 100%;
+  z-index: 1;
 }
 label.logo{
   color: white;
@@ -51,6 +52,36 @@ a.active,a:hover{
 }
 #check{
   display: none;
+}
+.nav-humberger{
+  background: url(bg1.jpg) no-repeat;
+  background-size: cover;
+  height: calc(100vh - 80px);
+}
+/* navbar ending */
+.boxes {
+  margin-bottom: 2%;
+  margin-top: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.box1 {
+  width: 70%;
+  height: 400px;
+  background: #81a05a;
+  border-radius: 0.5rem;
+}
+
+.box2 {
+  margin-top: 4%;
+  width: 70%;
+  height: 400px;
+  background: #81a05a;
+  border-radius: 0.5rem;
 }
 @media (max-width: 1102px){
   label.logo{
@@ -96,34 +127,7 @@ a.active,a:hover{
     left: 0;
   }
 }
-.nav-humberger{
-  background: url(bg1.jpg) no-repeat;
-  background-size: cover;
-  height: calc(100vh - 80px);
-}
-/* navbar ending */
-.boxes {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  flex-direction: column; /* Adicionado para mudar a direção do layout */
-}
 
-.box1 {
-  width: 70%;
-  height: 400px;
-  background: #81a05a;
-  border-radius: 0.5rem;
-}
-
-.box2 {
-  margin-top: 4%;
-  width: 70%;
-  height: 400px;
-  background: #81a05a;
-  border-radius: 0.5rem;
-}
 
 
 
