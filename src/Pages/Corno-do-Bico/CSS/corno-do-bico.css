@@ -135,9 +135,10 @@
     height: 200px;
     background: white;
     border-radius: 0.5rem;
-    transform: translateX(450px);
     position: relative;
     padding: 4%;
+    margin-top: 1%;
+    margin-left: 48%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -148,10 +149,11 @@
     height: 200px;
     background: white;
     border-radius: 0.5rem;
-    transform: translateX(450px);
     position: relative;
     display: flex;
     padding: 4%;
+    margin-top: 1%;
+    margin-left: 48%;
     justify-content: center;
     align-items: center;
 }
