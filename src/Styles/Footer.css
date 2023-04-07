@@ -99,7 +99,7 @@ html, body {
  
   .copyright-text
   {
-    
+
     margin:0
   }
 }
@@ -193,9 +193,8 @@ html, body {
   border-radius:100%;
   background-color:#33353d
 }
-.copyright-text
-{
-  margin:0
+  .copyright-text {
+    margin-left: -62%;
 }
 }
 @media (max-width: 1324px) {
