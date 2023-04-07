@@ -1,6 +1,21 @@
 html, body {
   height: 100%;
 }
+.content-wrap {
+  min-height: calc(100% - 100px);
+  /* 100px é a altura do footer */
+}
+/* Footer style */
+.site-footer {
+  background-color:#26272b;
+  padding:10px 0 10px;
+  font-size:17px;
+  line-height:24px;
+  color:#737373;
+  
+  position: absolute;
+  width: 100%;
+}
 .site-footer hr
 {
   border-top-color:#bbb;
@@ -63,6 +78,7 @@ html, body {
   border-radius:100%;
   background-color:#33353d
 }
+/* Cpoyrigth text style */
 .copyright-text
 {
   margin:0
@@ -104,22 +120,7 @@ html, body {
     font-weight:600
   }
 }
-.content-wrap {
-  min-height: calc(100% - 100px);
-  /* 100px é a altura do footer */
-}
 
-.site-footer {
-  background-color:#26272b;
-  padding:10px 0 10px;
-  font-size:15px;
-  line-height:24px;
-  color:#737373;
-  
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
 @media (max-width: 1366px){
   .site-footer
 {
