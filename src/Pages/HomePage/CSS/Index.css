@@ -290,6 +290,7 @@ a.active,a:hover{
   background-size: cover;
   height: calc(100vh - 80px);
 }
+/*  */
 @media (max-width: 429px){
   .checkbtn{
     display: block;
@@ -335,6 +336,7 @@ a.active,a:hover{
     width: 300px;
     height: 180px;
   }
+
 }
 .nav-humberger{
   background: url(bg1.jpg) no-repeat;
