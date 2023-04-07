@@ -118,7 +118,7 @@ a.active,a:hover{
   }
   
   .flip-card-2 {
-    margin-top: 5%;
+    margin-top: -10%;
     margin-right: 2%;
     background-color: transparent;
     width: 300px;
@@ -129,7 +129,7 @@ a.active,a:hover{
   
   .flip-card-3 {
     clear: right;
-    margin-top: 5%;
+   /* margin-top: 5%;*/
     margin-left: 2%;
     background-color: transparent;
     width: 300px;
@@ -192,4 +192,17 @@ a.active,a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+ .text-box-2 {
+   width: 50%;
+   height: 200px;
+   background: blue;
+   border-radius: 0.5rem;
+   transform: translateX(50px);
+   position: relative;
+   top: -135px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
