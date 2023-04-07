@@ -110,6 +110,7 @@ a.active,a:hover{
   
   .flip-card {
     margin-top: 2%;
+    margin-left: 2%;
     background-color: transparent;
     width: 300px;
     height: 300px;
@@ -118,6 +119,7 @@ a.active,a:hover{
   
   .flip-card-2 {
     margin-top: 5%;
+    margin-right: 2%;
     background-color: transparent;
     width: 300px;
     height: 300px;
@@ -128,6 +130,7 @@ a.active,a:hover{
   .flip-card-3 {
     clear: right;
     margin-top: 5%;
+    margin-left: 2%;
     background-color: transparent;
     width: 300px;
     height: 300px;
@@ -177,3 +180,16 @@ a.active,a:hover{
     color: white;
     transform: rotateY(180deg);
   }
+
+  .text-box-1 {
+    width: 50%;
+    height: 200px;
+    background: blue;
+    border-radius: 0.5rem;
+    transform: translateX(600px);
+    position: relative;
+    top: -300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
