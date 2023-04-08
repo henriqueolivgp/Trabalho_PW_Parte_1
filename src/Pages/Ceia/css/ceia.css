@@ -9,7 +9,7 @@ body {
   font-family: montserrat;
 }
 nav {
-  z-index: 1;
+  z-index: 3;
   background: #81a05a;
   height: 80px;
   width: 100%;
@@ -22,6 +22,7 @@ label.logo {
   font-weight: bold;
 }
 nav ul {
+  z-index: 1;
   float: right;
   margin-right: 20px;
 }
