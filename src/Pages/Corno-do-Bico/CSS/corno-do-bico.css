@@ -21,6 +21,7 @@ label.logo {
   font-weight: bold;
 }
 nav ul {
+  z-index: 1;
   float: right;
   margin-right: 20px;
 }
