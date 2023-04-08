@@ -210,3 +210,28 @@ html, body {
     width: 100%;
   }
 }
+@media (max-width: 1366px) {
+  .site-footer {
+    background-color:#26272b;
+    padding:45px 0 20px;
+    font-size:15px;
+    line-height:24px;
+    color:#737373;
+    
+    position: absolute;
+    width: 100%;
+  }
+}
+
+@media (max-width: 1292px) {
+  .site-footer {
+    background-color:#26272b;
+    padding:45px 0 20px;
+    font-size:15px;
+    line-height:24px;
+    color:#737373;
+    
+    position: relative;
+    width: 100%;
+  }
+}
