@@ -106,6 +106,14 @@ a:hover {
 }
 /* navbar ending */
 
+/*  */
+.page-title{
+  margin-top: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .boxes {
   margin-bottom: 2%;
   margin-top: 2%;
