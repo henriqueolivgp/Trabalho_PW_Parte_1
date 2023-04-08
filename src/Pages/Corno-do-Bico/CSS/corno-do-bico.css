@@ -177,3 +177,165 @@
   padding: 14px 28px;
   cursor: pointer;
 }
+
+@media (max-width: 1438px) {
+  .box1 {
+    padding: 2%;
+    width: 70%;
+    height: 400px;
+    background: #81a05a;
+    border-radius: 0.5rem;
+  }
+  
+  .box2 {
+    padding: 2%;
+    margin-top: 4%;
+    width: 70%;
+    height: 400px;
+    background: #81a05a;
+    border-radius: 0.5rem;
+  }
+
+.text-box-1 {
+  width: 50%;
+  height: 180px;
+  background: white;
+  border-radius: 0.5rem;
+  position: relative;
+  padding: 3%;
+  margin-top: 1%;
+  margin-left: 48%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-box-2{
+  width: 50%;
+  height: 180px;
+  background: white;
+  border-radius: 0.5rem;
+  position: relative;
+  padding: 3%;
+  margin-top: 1%;
+  margin-left: 48%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-1 {
+  width: 10%;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #3C6255;
+  color: white;
+  padding: 14px ;
+  cursor: pointer;
+}
+
+.button-2 {
+  width: 10%;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #3C6255;
+  color: white;
+  padding: 14px;
+  cursor: pointer;
+}
+
+.box1 h1{
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.button-1 b{
+  font-size: 78%;
+}
+
+.button-2 b{
+  font-size: 78%;
+}
+}
+
+@media (max-width: 1333px) {
+  .box1 {
+    padding: 2%;
+    width: 70%;
+    height: 400px;
+    background: #81a05a;
+    border-radius: 0.5rem;
+  }
+  
+  .box2 {
+    padding: 2%;
+    margin-top: 4%;
+    width: 70%;
+    height: 400px;
+    background: #81a05a;
+    border-radius: 0.5rem;
+  }
+
+.text-box-1 {
+  width: 50%;
+  height: 180px;
+  background: white;
+  border-radius: 0.5rem;
+  position: relative;
+  padding: 3%;
+  margin-top: 1%;
+  margin-left: 48%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-box-2{
+  width: 50%;
+  height: 180px;
+  background: white;
+  border-radius: 0.5rem;
+  position: relative;
+  padding: 3%;
+  margin-top: 1%;
+  margin-left: 48%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-1 {
+  width: 10%;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #3C6255;
+  color: white;
+  padding: 14px ;
+  cursor: pointer;
+}
+
+.button-2 {
+  width: 10%;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #3C6255;
+  color: white;
+  padding: 14px;
+  cursor: pointer;
+}
+
+.box1 h1{
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.button-1 b{
+  font-size: 78%;
+}
+
+.button-2 b{
+  font-size: 78%;
+}
+}
