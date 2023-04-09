@@ -15,7 +15,7 @@
   }
   
   .card{
-    width: 50%;
+    width: 90%;
     height: 70%;
     border-radius: 2rem;
     overflow: hidden;
@@ -24,15 +24,18 @@
   }
   
   .card-img{
-    width: 100%;
-    height: 100%;
+
     object-fit: cover;
     border-radius: 1rem;
-    background-image: url(../IMG/604908bb6b75c.jpg);
     background-size: cover;
    /* background-position: center;
     background-repeat: no-repeat;*/
   }
+
+  .back-img{
+    width: 100%;
+    height: 100%;
+  } 
   
   .card-body{
     width: 100%;
