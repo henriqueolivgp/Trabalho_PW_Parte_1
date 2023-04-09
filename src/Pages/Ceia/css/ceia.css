@@ -5,6 +5,7 @@
   box-sizing: border-box;
 }
 body {
+  height: 100%;
   font-family: montserrat;
 }
 nav {
@@ -29,16 +30,17 @@ nav ul li {
   line-height: 80px;
   margin: 0 5px;
 }
-nav ul li a {
+nav ul li #links-button {
   color: white;
   font-size: 17px;
   padding: 7px 13px;
   border-radius: 3px;
   text-transform: uppercase;
 }
-a.active,
-a:hover {
-  background: #1b9bff;
+#links-button.active,
+#links-button:hover {
+  text-decoration: none;
+  background-color: #3c6255;
   transition: 0.5s;
 }
 .checkbtn {
@@ -59,12 +61,21 @@ a:hover {
   align-items: center;
   justify-content: center;
 }
+@media (max-width: 1164px){
+  label.logo {
+    font-size: 24px;
+    padding-left: 50px;
+  }
+  nav ul li #links-button {
+    font-size: 12px;
+  }
+}
 @media (max-width: 1102px) {
   label.logo {
     font-size: 24px;
     padding-left: 50px;
   }
-  nav ul li a {
+  nav ul li #links-button {
     font-size: 12px;
   }
 }
@@ -92,13 +103,12 @@ a:hover {
     margin: 50px 0;
     line-height: 30px;
   }
-  nav ul li a {
+  nav ul li #links-button {
     font-size: 20px;
   }
-  a:hover,
-  a.active {
+  #links-button:hover,
+  #links-button.active {
     background: none;
-    color: #0082e6;
   }
   #check:checked ~ ul {
     left: 0;

@@ -30,16 +30,16 @@
     line-height: 80px;
     margin: 0 5px;
   }
-  nav ul li a {
+  nav ul li #links-button {
     color: white;
     font-size: 17px;
     padding: 7px 13px;
     border-radius: 3px;
     text-transform: uppercase;
   }
-  a.active,
-  a:hover {
-    background: #1b9bff;
+  #links-button.active,
+  #links-button:hover {
+    background: #2c3e50;
     transition: 0.5s;
   }
   .checkbtn {
@@ -65,7 +65,7 @@
       font-size: 24px;
       padding-left: 50px;
     }
-    nav ul li a {
+    nav ul li #links-button {
       font-size: 12px;
     }
   }
@@ -93,13 +93,12 @@
       margin: 50px 0;
       line-height: 30px;
     }
-    nav ul li a {
+    nav ul li #links-button {
       font-size: 20px;
     }
-    a:hover,
-    a.active {
-      background: none;
-      color: #0082e6;
+    #links-button:hover,
+    #links-button.active {
+      background: none
     }
     #check:checked ~ ul {
       left: 0;
