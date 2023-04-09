@@ -39,7 +39,6 @@
   }
   a.active,
   a:hover {
-    background: #1b9bff;
     transition: 0.5s;
   }
   .checkbtn {
