@@ -6,7 +6,6 @@
 }
 .content-wrap{
   margin-top: 2%;
-  display: inline-grid;
   margin-bottom: 2%;
 }
 nav {
@@ -57,7 +56,6 @@ nav ul li a#links-button {
   display: none;
 }
 .page-title{
-  margin-top: 2%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -122,11 +120,9 @@ nav ul li a#links-button {
 }
 
 .boxes {
-  margin-top: 8%;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
   flex-direction: column;
 }
 
