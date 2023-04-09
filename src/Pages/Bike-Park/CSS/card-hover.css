@@ -28,7 +28,7 @@
     height: 100%;
     object-fit: cover;
     border-radius: 1rem;
-    background-image: url(../IMG/lobo-iberico.jpg);
+    background-image: url(../IMG/604908bb6b75c.jpg);
     background-size: cover;
    /* background-position: center;
     background-repeat: no-repeat;*/
@@ -48,7 +48,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    transition: 2s;
+    transition: 1s;
   }
   
   .card:hover .card-body{
@@ -72,11 +72,12 @@
     line-height: 25px;
     margin: 40px 0;
     font-weight: 400;
+    text-align: justify;
   }
   
   .card-btn{
-    color: #1f3d47;
-    background: #8fabba;
+    color: white;
+    background: #3c6255;
     padding: 10px 20px;
     width: 120px;
     border-radius: 5px;
