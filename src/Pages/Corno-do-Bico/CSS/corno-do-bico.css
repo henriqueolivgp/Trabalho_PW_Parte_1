@@ -5,7 +5,6 @@
   box-sizing: border-box;
 }
 body {
-  height: 100%;
   font-family: 'Lora', serif;
 }
 nav {
@@ -39,7 +38,7 @@ nav ul li a {
 }
 a.active,
 a:hover {
-  background: #1b9bff;
+  
   transition: 0.5s;
 }
 .checkbtn {
@@ -53,6 +52,13 @@ a:hover {
 }
 #check {
   display: none;
+}
+.page-title{
+  margin-top: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10%;
 }
 @media (max-width: 1102px) {
   label.logo {
@@ -108,15 +114,14 @@ a:hover {
 
 /*  */
 .page-title{
-  margin-top: 2%;
+  margin-top: 1%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .boxes {
-  margin-bottom: 2%;
-  margin-top: 2%;
+  margin-top: 8%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -127,7 +132,7 @@ a:hover {
 .box1 {
   padding: 2%;
   width: 70%;
-  height: 384px;
+  height: 398px;
   background: #81a05a;
   border-radius: 0.5rem;
 }
@@ -136,7 +141,16 @@ a:hover {
   padding: 2%;
   margin-top: 4%;
   width: 70%;
-  height: 384px;
+  height: 398px;
+  background: #81a05a;
+  border-radius: 0.5rem;
+}
+
+.box3 {
+  padding: 2%;
+  margin-top: 4%;
+  width: 70%;
+  height: 398px;
   background: #81a05a;
   border-radius: 0.5rem;
 }
@@ -169,6 +183,20 @@ a:hover {
   align-items: center;
 }
 
+.text-box-3 {
+  width: 50%;
+  height: 200px;
+  background: white;
+  border-radius: 0.5rem;
+  position: relative;
+  display: flex;
+  padding: 1%;
+  margin-top: 1%;
+  margin-left: 48%;
+  justify-content: center;
+  align-items: center;
+}
+
 .button-1 {
   margin-top: 2%;
   margin-left: 66%;
@@ -182,6 +210,17 @@ a:hover {
 }
 
 .button-2 {
+  margin-top: 2%;
+  margin-left: 66%;
+  width: 14%;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #3c6255;
+  color: white;
+  padding: 14px 28px;
+  cursor: pointer;
+}
+.button-3 {
   margin-top: 2%;
   margin-left: 66%;
   width: 14%;
