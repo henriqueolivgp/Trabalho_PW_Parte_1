@@ -55,7 +55,6 @@ nav ul li #links-button {
   display: none;
 }
 .page-title {
-  margin-top: 2%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -122,16 +121,14 @@ nav ul li #links-button {
 
 .boxes {
   flex-direction: column;
-  margin-bottom: 2%;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
   flex-direction: column;
 }
 
 .box1 {
-  margin-top: 4%;
+  margin-top: 1%;
   padding: 2%;
   width: 70%;
   height: 347px;
@@ -151,13 +148,17 @@ nav ul li #links-button {
   box-shadow: 0px 10px 10px #81a05a;
 }
 .img-text {
-  margin-top: -16%;
-  width: 32%;
+  width: 30%;
   border-radius: 0.5rem;
   height: auto;
 }
 .img-text-1 {
   width: 30%;
+  border-radius: 0.5rem;
+  height: auto;
+}
+.img-text-2 {
+  width: 27%;
   border-radius: 0.5rem;
   height: auto;
 }
@@ -176,6 +177,18 @@ nav ul li #links-button {
 }
 
 .parent-img-text {
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.parent-img-text-2 {
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.parent-img-text-3 {
   position: relative;
   align-items: center;
   display: flex;
@@ -204,7 +217,7 @@ nav ul li #links-button {
   position: relative;
   padding: 1%;
   margin-top: 1%;
-  margin-left: 48%;
+  margin-left: 20%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -219,7 +232,7 @@ nav ul li #links-button {
   display: flex;
   padding: 1%;
   margin-top: 1%;
-  margin-left: 48%;
+  margin-left: 23%;
   justify-content: center;
   align-items: center;
 }
