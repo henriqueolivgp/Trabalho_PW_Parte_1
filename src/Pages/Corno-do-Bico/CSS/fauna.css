@@ -162,6 +162,7 @@ a:hover {
   margin-left: 10%;
   display: flex;
   align-items: center;
+  text-align: justify;
 }
 
 .text-box-2 {
@@ -174,6 +175,7 @@ a:hover {
   margin-left: 10%;
   display: flex;
   align-items: center;
+  text-align: justify;
 }
 
 .flip-card-inner {
@@ -185,6 +187,7 @@ a:hover {
   transform-style: preserve-3d;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   border-radius: 1rem;
+
 }
 
 .flip-card:hover .flip-card-inner {
@@ -199,7 +202,7 @@ a:hover {
   transform: rotateY(180deg);
 }
 
-.flip-card-front,
+.flip-card-front, .flip-card-front-1, .flip-card-front-2, .flip-card-front-3, .flip-card-front-4, .flip-card-front-5,.flip-card-front-6,
 .flip-card-back {
   position: absolute;
   width: 100%;
@@ -215,7 +218,27 @@ a:hover {
 }
 
 .flip-card-front-1 {
-  background-image: url("../IMG/Águia de asa redonda.jpg");
+  background-image: url("../IMG/Fauna/Águia-de-asa-redonda.jpg");
+  background-size: 300px 300px;
+}
+.flip-card-front-2 {
+  background-image: url("../IMG/Fauna/Corujinha-do-Mato.jpg");
+  background-size: 300px 300px;
+}
+.flip-card-front-3 {
+  background-image: url("../IMG/Fauna/garrano.jpeg");
+  background-size: 300px 300px;
+}
+.flip-card-front-4 {
+  background-image: url("../IMG/Fauna/javali_2.png");
+  background-size: 300px 300px;
+}
+.flip-card-front-5 {
+  background-image: url("../IMG/Fauna/large.jpg");
+  background-size: 300px 300px;
+}
+.flip-card-front-6 {
+  background-image: url("../IMG/Fauna/unnamed.jpg");
   background-size: 300px 300px;
 }
 
