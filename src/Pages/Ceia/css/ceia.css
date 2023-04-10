@@ -438,7 +438,7 @@ nav ul li #links-button {
   .box1 {
     padding: 2%;
     width: 70%;
-    height: 396px;
+    height: 350px;
     background: #81a05a;
     border-radius: 0.5rem;
   }
@@ -447,7 +447,7 @@ nav ul li #links-button {
     padding: 2%;
     margin-top: 4%;
     width: 70%;
-    height: 396px;
+    height: 362px;
     background: #81a05a;
     border-radius: 0.5rem;
   }
@@ -539,7 +539,7 @@ nav ul li #links-button {
   .box1 {
     padding: 2%;
     width: 70%;
-    height: 432px;
+    height: 384px;
     background: #81a05a;
     border-radius: 0.5rem;
   }
@@ -548,7 +548,7 @@ nav ul li #links-button {
     padding: 2%;
     margin-top: 4%;
     width: 70%;
-    height: 432px;
+    height: 380px;
     background: #81a05a;
     border-radius: 0.5rem;
   }
@@ -557,7 +557,7 @@ nav ul li #links-button {
     padding: 2%;
     margin-top: 4%;
     width: 70%;
-    height: 432px;
+    height: 382px;
     background: #81a05a;
     border-radius: 0.5rem;
   }
@@ -570,7 +570,7 @@ nav ul li #links-button {
     position: relative;
     padding: 2%;
     margin-top: 1%;
-    margin-left: 48%;
+    margin-left: 4%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -583,7 +583,7 @@ nav ul li #links-button {
     border-radius: 0.5rem;
     position: relative;
     padding: 2%;
-    margin-left: 48%;
+    margin-left: 4%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -596,7 +596,7 @@ nav ul li #links-button {
     border-radius: 0.5rem;
     position: relative;
     padding: 2%;
-    margin-left: 48%;
+    margin-left: 4%;
     display: flex;
     justify-content: center;
     align-items: center;
