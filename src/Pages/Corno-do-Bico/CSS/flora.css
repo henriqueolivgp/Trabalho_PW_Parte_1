@@ -54,7 +54,7 @@ a.active,a:hover{
   display: none;
 }
 .page-title{
-  margin-top: 2%;
+  margin-top: 1.5%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -183,33 +183,41 @@ a.active,a:hover{
   }
   
   .flip-card-back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #81a05a;
     color: white;
     transform: rotateY(180deg);
   }
 
+  .parent{
+    position: relative;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
   .text-box-1 {
+    padding: 2%;
     width: 50%;
     height: 200px;
-    background: blue;
+    background:#81a05a;
     border-radius: 0.5rem;
-    transform: translateX(600px);
     position: relative;
-    top: -300px;
+    margin-left: 10%;
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 
- .text-box-2 {
-   width: 50%;
-   height: 200px;
-   background: blue;
-   border-radius: 0.5rem;
-   transform: translateX(50px);
-   position: relative;
-   top: -135px;
-   display: flex;
-   justify-content: center;
-   align-items: center;
+.text-box-2 {
+  padding: 2%;
+  width: 50%;
+  height: 200px;
+  background:#81a05a;
+  border-radius: 0.5rem;
+  position: relative;
+  margin-left: 10%;
+  display: flex;
+  align-items: center;
 }
