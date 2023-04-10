@@ -264,3 +264,133 @@ nav ul li a#links-button {
 .flip-card-back {
   text-align: center;
 }
+
+@media (max-width: 1640px) {
+  .text-box-1 {
+    padding: 2%;
+    width: 50%;
+    height: 250px;
+    background: #81a05a;
+    border-radius: 0.5rem;
+    position: relative;
+    margin-left: 10%;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+  }
+  
+  .text-box-2 {
+    padding: 2%;
+    width: 50%;
+    height: 250px;
+    background: #81a05a;
+    border-radius: 0.5rem;
+    position: relative;
+    margin-left: 10%;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+  }
+}
+
+@media (max-width: 1223px) {
+  .text-box-1 {
+    padding: 2%;
+    width: 50%;
+    height: 292px;
+    background: #81a05a;
+    border-radius: 0.5rem;
+    position: relative;
+    margin-left: 10%;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+  }
+  
+  .text-box-2 {
+    padding: 2%;
+    width: 50%;
+    height: 292px;
+    background: #81a05a;
+    border-radius: 0.5rem;
+    position: relative;
+    margin-left: 10%;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+  }
+}
+
+@media (max-width: 1163px) {
+
+  .flip-card {
+    margin-top: 2%;
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+  }
+  
+  .flip-card-2 {
+    margin-left: 10%;
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+  }
+  
+  .flip-card-3 {
+    clear: right;
+    /* margin-top: 5%;*/
+    margin-left: 2%;
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+    display: flex;
+  }
+
+  .parent-left {
+    margin-left: 15%;
+    position: relative;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .parent-right {
+    margin-right: 8%;
+    margin-left: 6%;
+    margin-top: 4%;
+    position: relative;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .text-box-1 {
+    padding: 2%;
+    width: 50%;
+    height: 292px;
+    background: #81a05a;
+    border-radius: 0.5rem;
+    position: relative;
+    margin-left: 10%;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+  }
+  
+  .text-box-2 {
+    padding: 2%;
+    width: 50%;
+    height: 292px;
+    background: #81a05a;
+    border-radius: 0.5rem;
+    position: relative;
+    margin-left: 10%;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+  }
+}
