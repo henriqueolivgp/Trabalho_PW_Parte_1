@@ -104,7 +104,6 @@ a:hover {
 /* Flipcards start here */
 .content-wrap {
   height: 100%;
-  margin: auto;
 }
 
 .flip-card {
@@ -136,6 +135,7 @@ a:hover {
 }
 
 .parent-left {
+  margin-left: 15%;
   position: relative;
   align-items: center;
   display: flex;
@@ -143,6 +143,8 @@ a:hover {
 }
 
 .parent-right {
+  margin-right: 8%;
+  margin-left: 6%;
   margin-top: 4%;
   position: relative;
   align-items: center;
@@ -208,7 +210,12 @@ a:hover {
 }
 
 .flip-card-front {
-  background-image: url("../IMG/lobo-iberico.jpg");
+  background-image: url("../IMG/Fauna/lobo-iberico.jpg");
+  background-size: 300px 300px;
+}
+
+.flip-card-front-1 {
+  background-image: url("../IMG/Águia de asa redonda.jpg");
   background-size: 300px 300px;
 }
 
