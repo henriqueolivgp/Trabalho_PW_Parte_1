@@ -175,9 +175,16 @@ a.active,a:hover{
   }
   
   .flip-card-back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #81a05a;
     color: white;
     transform: rotateY(180deg);
+  }
+
+  .flip-card-back{
+    text-align: center;
   }
 
   .text-box-1 {
