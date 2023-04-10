@@ -21,5 +21,7 @@ Dentro da pasta de **WebSite-Vascoes** irá conter os seguintes ficheiros:<br>
 &nbsp;&nbsp;3.[Footer](https://codepen.io/scanfcode/pen/MEZPNd)</br>
 
 ## Sites das funcionalidades utilizadas
-&nbsp;&nbsp;1.[Slider](https://codepen.io/suez/pen/ByvKXE)
+&nbsp;&nbsp;1.[Slider](https://codepen.io/suez/pen/ByvKXE)</br>
+&nbsp;&nbsp;2.[NavBar](https://www.codingnepalweb.com/responsive-navigation-menu-bar-html-css/)</br>
+&nbsp;&nbsp;3.[Footer](https://codepen.io/scanfcode/pen/MEZPNd)</br>
 
