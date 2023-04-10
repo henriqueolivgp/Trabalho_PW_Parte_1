@@ -207,6 +207,7 @@ nav ul li #links-button {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: justify;
 }
 
 .text-box-2 {
@@ -221,6 +222,7 @@ nav ul li #links-button {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: justify;
 }
 
 .text-box-3 {
@@ -235,6 +237,7 @@ nav ul li #links-button {
   margin-left: 23%;
   justify-content: center;
   align-items: center;
+  text-align: justify;
 }
 
 /* media screen for 1449*/
