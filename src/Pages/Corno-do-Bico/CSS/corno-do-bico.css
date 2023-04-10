@@ -182,6 +182,7 @@ nav ul li a#links-button {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: justify;
 }
 
 .text-box-2 {
@@ -196,6 +197,7 @@ nav ul li a#links-button {
   margin-left: 48%;
   justify-content: center;
   align-items: center;
+  text-align: justify;
 }
 
 .text-box-3 {
@@ -210,6 +212,7 @@ nav ul li a#links-button {
   margin-left: 48%;
   justify-content: center;
   align-items: center;
+  text-align: justify;
 }
 
 .button-1 {
