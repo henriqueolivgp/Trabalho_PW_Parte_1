@@ -4,8 +4,9 @@
   list-style: none;
   box-sizing: border-box;
 }
-body {
-  font-family: 'Lora', serif;
+.content-wrap{
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 nav {
   background: #81a05a;
@@ -29,16 +30,17 @@ nav ul li {
   line-height: 80px;
   margin: 0 5px;
 }
-nav ul li a {
+nav ul li a#links-button {
   color: white;
   font-size: 17px;
   padding: 7px 13px;
   border-radius: 3px;
   text-transform: uppercase;
 }
-a.active,
-a:hover {
-  
+#links-button.active,
+#links-button:hover {
+  text-decoration: none;
+  background-color: #3c6255;
   transition: 0.5s;
 }
 .checkbtn {
@@ -54,18 +56,16 @@ a:hover {
   display: none;
 }
 .page-title{
-  margin-top: 2%;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 10%;
 }
 @media (max-width: 1102px) {
   label.logo {
     font-size: 24px;
     padding-left: 50px;
   }
-  nav ul li a {
+  nav ul li #links-button {
     font-size: 12px;
   }
 }
@@ -93,13 +93,12 @@ a:hover {
     margin: 50px 0;
     line-height: 30px;
   }
-  nav ul li a {
+  nav ul li #links-button {
     font-size: 20px;
   }
-  a:hover,
-  a.active {
+  #links-button:hover,
+  #links-button.active {
     background: none;
-    color: #0082e6;
   }
   #check:checked ~ ul {
     left: 0;
@@ -121,11 +120,9 @@ a:hover {
 }
 
 .boxes {
-  margin-top: 8%;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
   flex-direction: column;
 }
 
