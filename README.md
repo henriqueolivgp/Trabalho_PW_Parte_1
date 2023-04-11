@@ -23,6 +23,7 @@ Dentro da pasta de **WebSite-Vascoes** irá conter os seguintes ficheiros:<br>
 &nbsp;&nbsp;3.[Footer](https://codepen.io/scanfcode/pen/MEZPNd)</br>
 &nbsp;&nbsp;4.[Flip Cards](https://codepen.io/scanfcode/pen/MEZPNd](https://www.w3schools.com/howto/howto_css_flip_card.asp))</br>
 &nbsp;&nbsp;5.[Card Hover Effect](https://codepen.io/scanfcode/pen/MEZPNd](https://www.youtube.com/watch?v=3RvQJX1_fKQ))</br>
+&nbsp;&nbsp;5.[CSS Tips](https://www.freecodecamp.org/news/how-to-center-anything-with-css-align-a-div-text-and-more)</br>
 
 ## Sites das funcionalidades utilizadas
 &nbsp;&nbsp;1.[NavBar](https://www.codingnepalweb.com/responsive-navigation-menu-bar-html-css/)</br>
