@@ -1,13 +1,5 @@
-* {
-  margin: 0;
-  text-decoration: none;
-  list-style: none;
-  box-sizing: border-box;
-}
-body {
-  height: 100%;
-  font-family: montserrat;
-}
+
+
 nav {
   background: #81a05a;
   height: 80px;
